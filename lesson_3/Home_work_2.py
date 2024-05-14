@@ -22,8 +22,8 @@ print("4. division")
 
 opera = input("Ваш вибір (1/2/3/4): ")
 
-num1 = float(input("Введіть перше число: "))
-num2 = float(input("Введіть друге число: "))
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
 if opera == '1':
     print("Result:", addition(num1, num2))
