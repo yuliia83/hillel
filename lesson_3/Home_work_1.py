@@ -1,19 +1,13 @@
-x = int(input("enter number"))
-y = int(input("enter number"))
-print(x + y)
+def move_the_last_element_to_the_beginning(lst):
+    if len(lst) <= 1:
+        return lst
 
-x = int(input("enter number"))
-y = int(input("enter number"))
-print(x * y)
+    last_element = lst.pop()
 
-x = int(input("enter number"))
-y = int(input("enter number"))
-print(x / y)
+    lst.insert(0, last_element)
 
-if y is not(y  == 0):
-    print(y)
+    return lst
 
-x = int(input("enter number"))
-y = int(input("enter number"))
-print(y - x)
-
+my_list = [1, 2, 3, 4, 5, 6]
+now_list = move_the_last_element_to_the_beginning(my_list)
+print(my_list)
