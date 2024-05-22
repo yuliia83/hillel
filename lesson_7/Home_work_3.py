@@ -8,4 +8,4 @@ def sekond_index (string, target):
     return second_index
 
 
-print(sekond_index("variant", "a"))
+print(sekond_index("var", "a"))
